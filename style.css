@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+p{
+  font-family: "bebas neue";
+  font-size: 100px;
+  color:red;
+}
+button{
+  background-color: whitesmoke;
+  margin-left: 0px;
+  border-radius: 10px;
+  border-radius: 12px;
+  padding: 5px;
+  width: px;
+  filter: drop-shadow(5px 10px 4px #8f1818);
+}
+button a {
+  font-family: "Bebas Neue";
+  color: black;
+  font-weight: bolder;
+  font-size: 50px;
+  text-decoration: none;
+}
+button:hover {
+  background-color: darkred;
+  margin-left: 0px;
+  border-radius: 10px;
+  border-radius: 12px;
+  padding: 5px;
+  width: px;
+  filter: drop-shadow(5px 10px 4px #8f1818);
+  transition: 0.3s
+}
+button a:hover {
+  color: black;
+  font-weight: bolder;
+  font-size: 60px;
+  text-decoration: none;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "bebas neue";
+  font-size: 150px;
+  color:red;
+}
+.parallax {
+  position: relative;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: auto;
+  font-size: 200%;
+}
+
+.parallax .parallax-layer {
+  padding: 100vh 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.base {
+  transform: translateZ(-0px);
+  z-index: -1;
+}
+
+.back {
+  transform: translateZ(-1px);
+  z-index: -2;
+}
+
+.further {
+  transform: translateZ(-2px);
+  z-index: -3;
+}
+.further img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
